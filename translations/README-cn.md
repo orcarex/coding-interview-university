@@ -354,34 +354,34 @@
     - 实现一个可自动调整大小的动态数组。
     - [ ] 介绍：
         - [数组（视频）](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [数组的基础知识（视频）](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-        - [多维数组（视频）](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
+        - [数组的基础知识（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
+        - [多维数组（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
         - [动态数组（视频）](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [不规则数组（视频）](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
-        - [调整数组的大小（视频）](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
-    - [ ] 实现一个动态数组（可自动调整大小的可变数组）：
-        - [ ] 练习使用数组和指针去编码，并且指针是通过计算去跳转而不是使用索引
-        - [ ] 通过分配内存来新建一个原生数据型数组
+        - [不规则数组（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
+        - [调整数组的大小（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
+    - [x] 实现一个动态数组（可自动调整大小的可变数组）：
+        - [x] 练习使用数组和指针去编码，并且指针是通过计算去跳转而不是使用索引
+        - [x] 通过分配内存来新建一个原生数据型数组
             - 可以使用 int 类型的数组，但不能使用其语法特性
             - 从大小为16或更大的数（使用2的倍数 —— 16、32、64、128）开始编写
-        - [ ] size() —— 数组元素的个数
-        - [ ] capacity() —— 可容纳元素的个数
-        - [ ] is_empty()
-        - [ ] at(index) —— 返回对应索引的元素，且若索引越界则愤然报错
-        - [ ] push(item)
-        - [ ] insert(index, item) —— 在指定索引中插入元素，并把后面的元素依次后移
-        - [ ] prepend(item) —— 可以使用上面的 insert 函数，传参 index 为 0
-        - [ ] pop() —— 删除在数组末端的元素，并返回其值
-        - [ ] delete(index) —— 删除指定索引的元素，并把后面的元素依次前移
-        - [ ] remove(item) —— 删除指定值的元素，并返回其索引（即使有多个元素）
-        - [ ] find(item) —— 寻找指定值的元素并返回其中第一个出现的元素其索引，若未找到则返回 -1
-        - [ ] resize(new_capacity) // 私有函数
+        - [x] size() —— 数组元素的个数
+        - [x] capacity() —— 可容纳元素的个数
+        - [x] is_empty()
+        - [x] at(index) —— 返回对应索引的元素，且若索引越界则愤然报错
+        - [x] push(item)
+        - [x] insert(index, item) —— 在指定索引中插入元素，并把后面的元素依次后移
+        - [x] prepend(item) —— 可以使用上面的 insert 函数，传参 index 为 0
+        - [x] pop() —— 删除在数组末端的元素，并返回其值
+        - [x] delete(index) —— 删除指定索引的元素，并把后面的元素依次前移
+        - [x] remove(item) —— 删除指定值的元素，并返回其索引（即使有多个元素）
+        - [x] find(item) —— 寻找指定值的元素并返回其中第一个出现的元素其索引，若未找到则返回 -1
+        - [x] resize(new_capacity) // 私有函数
             - 若数组的大小到达其容积，则变大一倍
             - 获取元素后，若数组大小为其容积的1/4，则缩小一半
-    - [ ] 时间复杂度
+    - [x] 时间复杂度
         - 在数组末端增加/删除、定位、更新元素，只允许占 O(1) 的时间复杂度（平摊（amortized）去分配内存以获取更多空间）
         - 在数组任何地方插入/移除元素，只允许 O(n) 的时间复杂度
-    - [ ] 空间复杂度
+    - [x] 空间复杂度
         - 因为在内存中分配的空间邻近，所以有助于提高性能
         - 空间需求 = （大于或等于 n 的数组容积）* 元素的大小。即便空间需求为 2n，其空间复杂度仍然是 O(n)
 
@@ -418,14 +418,14 @@
 
 - ### 堆栈（Stack）
     - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [使用堆栈 —— 后进先出（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+    - [ ] [使用堆栈 —— 后进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [ ] 可以不实现，因为使用数组来实现并不重要
 
 - ### 队列（Queue）
-    - [ ] [使用队列 —— 先进先出（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
+    - [ ] [使用队列 —— 先进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
     - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [优先级队列（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+    - [ ] [优先级队列（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
     - [ ] 使用含有尾部指针的链表来实现:
         - enqueue(value) —— 在尾部添加值
         - dequeue() —— 删除最早添加的元素并返回其值（首部元素）
@@ -451,10 +451,10 @@
         - [ ] [（进阶）完美哈希（Perfect hashing）（视频）](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
     - [ ] 在线课程：
-        - [ ] [哈希函数的掌握（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
-        - [ ] [使用哈希表（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
-        - [ ] [哈希表的支持（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
-        - [ ] [哈希表的语言支持（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
+        - [ ] [哈希函数的掌握（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
+        - [ ] [使用哈希表（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
+        - [ ] [哈希表的支持（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
+        - [ ] [哈希表的语言支持（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
         - [ ] [基本哈希表（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
         - [ ] [数据结构（视频）](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [电话薄问题（Phone Book Problem）（视频）](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
