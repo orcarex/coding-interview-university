@@ -389,6 +389,7 @@
     - [ ] 介绍：
         - [ ] [单向链表（视频）](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B —— 链表（视频）](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
+        - [x] [Data Structures: Linked Lists] (https://www.youtube.com/watch?v=njTh_OwMljA)
     - [ ] [C 代码（视频）](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
         - 并非看完整个视频，只需要看关于节点结果和内存分配那一部分即可
     - [ ] 链表 vs 数组：
