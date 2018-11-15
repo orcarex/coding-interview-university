@@ -196,10 +196,9 @@
 - [ ] 文章：
     - [ ] [三步成为 Googler](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
     - [ ] [得到在 Google 的工作机会](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - 所有他所提及的事情都列在了下面
+    - 所有他所提及的事情都列在了下面
     - [ ] _（早已过期）_ [如何得到 Google 的一份工作，面试题，应聘过程](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
-    - [ ] [电话面试的问题](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
-
+    - [ ] [电话面试的问题](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 - [ ] 附加的（虽然 Google 不建议，但我还是添加在此）：
     - [ ] [ABC：永远都要去编程（Always Be Coding）](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
     - [ ] [四步成为 Google 里一名没有学位的员工](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.asalo1vfx)
@@ -207,10 +206,10 @@
     - [ ] [Google 是如何看待应聘、管理和公司文化](http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture)
     - [ ] [程序开发面试中有效的白板（Whiteboarding）](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
     - [ ] 震撼开发类面试 第一集：
-        - [ ] [Gayle L McDowell —— 震撼开发类面试（视频）](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [震撼开发类面试 —— 作者 Gayle Laakmann McDowell（视频）](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [ ] [Gayle L McDowell —— 震撼开发类面试（视频）](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [ ] [震撼开发类面试 —— 作者 Gayle Laakmann McDowell（视频）](https://www.youtube.com/watch?v=aClxtDcdpsQ)
     - [ ] 如何在世界四强企业中获得一份工作：
-        - [ ] [“如何在世界四强企业中获得一份工作 —— Amazon、Facebook、Google 和 Microsoft”（视频）](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [“如何在世界四强企业中获得一份工作 —— Amazon、Facebook、Google 和 Microsoft”（视频）](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [面试 Google 失败](http://alexbowe.com/failing-at-google-interviews/)
 
 ## 为你的面试选择一种语言
@@ -323,7 +322,7 @@
     - [ ] [掌握编译器的优化（C++）（视频）](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 - [ ] **浮点数是如何存储的：**
-    - [ ] 简单的 8-bit：[浮点数的表达形式　—— 1（视频 —— 在计算上有一个错误 —— 详情请查看视频的介绍）](https://www.youtube.com/watch?v=ji3SfClm8TU)
+    - [x] 简单的 8-bit：[浮点数的表达形式　—— 1（视频 —— 在计算上有一个错误 —— 详情请查看视频的介绍）](https://www.youtube.com/watch?v=ji3SfClm8TU)
     - [ ] 32 bit：[IEEE754 32-bit 浮点二进制（视频）](https://www.youtube.com/watch?v=50ZYcZebIec)
 
 ## 算法复杂度 / Big-O / 渐进分析法
@@ -658,7 +657,7 @@
         - [ ] [Aduni —— 算法 —— 课程4（该链接直接跳到开始部分）（视频）](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [ ] [Aduni —— 算法 —— 课程5（视频）](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [ ] [黑树（Black Tree）](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [ ] 二分查找及红黑树的介绍
+        - [ ] [二分查找及红黑树的介绍]((https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/))
 
 - ### N 叉树（K 叉树、M 叉树）
     - 注意：N 或 K 指的是分支系数（即树的最大分支数）：
