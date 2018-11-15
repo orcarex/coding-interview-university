@@ -328,7 +328,7 @@
 
 ## 算法复杂度 / Big-O / 渐进分析法
 - 并不需要实现
-- [ ] [Harvard CS50 —— 渐进表示（视频）](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [x] [Harvard CS50 —— 渐进表示（视频）](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O 记号（通用快速教程）（视频）](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O 记号（以及 Omega 和 Theta）——  最佳数学解释（视频）](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena 算法：
@@ -658,7 +658,7 @@
         - [ ] [Aduni —— 算法 —— 课程4（该链接直接跳到开始部分）（视频）](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [ ] [Aduni —— 算法 —— 课程5（视频）](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [ ] [黑树（Black Tree）](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [ ] [二分查找及红黑树的介绍](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [ ] 二分查找及红黑树的介绍
 
 - ### N 叉树（K 叉树、M 叉树）
     - 注意：N 或 K 指的是分支系数（即树的最大分支数）：
@@ -670,16 +670,16 @@
 
 - [ ] 笔记:
     - 实现各种排序 & 知道每种排序的最坏、最好和平均的复杂度分别是什么场景:
-        - 不要用冒泡排序 - 大多数情况下效率感人 - 时间复杂度 O(n^2), 除非 n <= 16
+    - 不要用冒泡排序 - 大多数情况下效率感人 - 时间复杂度 O(n^2), 除非 n <= 16
     - [ ] 排序算法的稳定性 ("快排是稳定的么?")
-        - [排序算法的稳定性](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
-        - [排序算法的稳定性](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
-        - [排序算法的稳定性](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
-        - [排序算法的稳定性](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
-        - [排序算法 - 稳定性](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
+    - [排序算法的稳定性](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
+    - [排序算法的稳定性](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
+    - [排序算法的稳定性](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
+    - [排序算法的稳定性](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
+    - [排序算法 - 稳定性](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
     - [ ] 哪种排序算法可以用链表？哪种用数组？哪种两者都可？
-        - 并不推荐对一个链表排序，但归并排序是可行的.
-        - [链表的归并排序](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+    - 并不推荐对一个链表排序，但归并排序是可行的.
+    - [链表的归并排序](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
 - 关于堆排序，请查看前文堆的数据结构部分。堆排序很强大，不过是非稳定排序。
 
@@ -1279,10 +1279,10 @@
 
     *****************************************************************************************************
     *****************************************************************************************************
-
+    
     下面的内容都是可选的。这些是我的推荐，不是 Google 的。
     通过学习这些内容，你将会得到更多的有关 CS 的概念，并将为所有的软件工程工作做更好的准备。
-
+    
     *****************************************************************************************************
     *****************************************************************************************************
 
