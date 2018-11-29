@@ -395,7 +395,7 @@
         - [基本链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [在现实中，链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [为什么你需要避免使用链表（视频）](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] 的确：你需要关于“指向指针的指针”的相关知识：（因为当你传递一个指针到一个函数时，该函数可能会改变指针所指向的地址）该页只是为了让你了解“指向指针的指针”这一概念。但我并不推荐这种链式遍历的风格。因为，这种风格的代码，其可读性和可维护性太低。
+    - [x] 的确：你需要关于“指向指针的指针”的相关知识：（因为当你传递一个指针到一个函数时，该函数可能会改变指针所指向的地址）该页只是为了让你了解“指向指针的指针”这一概念。但我并不推荐这种链式遍历的风格。因为，这种风格的代码，其可读性和可维护性太低。
         - [指向指针的指针](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] 实现（我实现了使用尾指针以及没有使用尾指针这两种情况）：
         - [ ] size() —— 返回链表中数据元素的个数
@@ -1290,7 +1290,7 @@
 ## 附加的学习
 
 - ### Unicode
-    - [ ] [每一个软件开发者的绝对最低限度，必须要知道的关于 Unicode 和字符集知识]( http://www.joelonsoftware.com/articles/Unicode.html)
+    - [ ] [每一个软件开发者的绝对最低限度，必须要知道的关于 Unicode 和字符集知识](http://www.joelonsoftware.com/articles/Unicode.html)
     - [ ] [关于处理文本需要的编码和字符集, 每个程序员绝对需要知道的知识](http://kunststube.net/encoding/)
 
 - ### 字节顺序
@@ -1326,6 +1326,7 @@
     - [ ] bash
     - [ ] cat
     - [ ] grep
+
     - [ ] sed
     - [ ] awk
     - [ ] curl or wget
@@ -1416,23 +1417,23 @@
 - ### 设计模式
     - [ ] [UML统一建模语言概览 (视频)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
     - [ ] 主要有如下的设计模式:
-        - [ ] s(strategy)
-        - [ ] singleton
-        - [ ] adapter
-        - [ ] prototype
-        - [ ] decorator
-        - [ ] visitor
-        - [ ] factory, abstract factory
-        - [ ] facade
-        - [ ] observer
-        - [ ] proxy
+        - [x] s(strategy)
+        - [x] singleton
+        - [x] adapter
+        - [x] prototype
+        - [x] decorator
+        - [x] visitor
+        - [x] factory, abstract factory
+        - [x] facade
+        - [x] observer
+        - [x] proxy
         - [ ] delegate
-        - [ ] command
-        - [ ] state
-        - [ ] memento
-        - [ ] iterator
-        - [ ] composite
-        - [ ] flyweight
+        - [x] command
+        - [x] state
+        - [x] memento
+        - [x] iterator
+        - [x] composite
+        - [x] flyweight
     - [ ] [第六章 (第 1 部分 ) - 设计模式 (视频)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
     - [ ] [第六章 (第 2 部分 ) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (视频)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [第六章 (第 3 部分 ) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
